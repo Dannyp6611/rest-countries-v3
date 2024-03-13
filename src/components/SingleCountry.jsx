@@ -58,7 +58,7 @@ export default function SingleCountry() {
                 <li>Currency:</li>
               </ul>
 
-              {item.borders.length && (
+              {item.borders?.length && (
                 <>
                   <h3 className="text-gray-900 font-bold mb-2 dark:text-white">
                     Borders
